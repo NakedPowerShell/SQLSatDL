@@ -30,8 +30,6 @@ Authored by @NakedPowerShell
 
 ## Example
 
-EXAMPLE
-
 `Get-SQLSatDL "K:\SQLSat_DL" 696 Y`
 
 `Get-SQLSatDL [-Tpath] <String> [-Evt] <Int32> [-Uz] <String> [<CommonParameters>]`
