@@ -12,7 +12,7 @@ Authored by @NakedPowerShell
 
     Based upon the SQL Saturday event # passed in, search the SQL Saturday schedule for download-able content and then download each file found.
 
-    If the content is a zip file, the optional switch parameter allows the zip to be unarchived.
+    If the content is a zip file, the parameter -Uz $true allows the zip to be unarchived.
 
     This is the schedule file searched: http://www.sqlsaturday.com/[Event#]/Sessions/Schedule.aspx
 
@@ -20,13 +20,13 @@ Authored by @NakedPowerShell
 
     - Schedule_[Event#].html : Is the download of the Conference Schedule: http://www.sqlsaturday.com/[Event#]/Sessions/Schedule.aspx
     - log_SQLSAT.txt : Is a CSV text log of all the files for this event downloaded
-    - If you said True to unzip files: Sub-folders for all the zip files expanded will exist. Content files downloaded: PDF, PPTX, ZIP, SQL, and other file extensions from SQL Saturday content authors
+    - If you said $True to unzip files: Sub-folders for all the zip files expanded will exist. Content files downloaded: PDF, PPTX, ZIP, SQL, and other file extensions from SQL Saturday content authors
 
 ## Parameters
 
 - PARAMETER Tpath : The complete local target download path like "K:\SQLSat_DL"  
 - PARAMETER Evt : SQL Saturday event # like 696
-- PARAMETER Uz : Switch parameter to Unzip downloaded content if it is in a ZIP format or not unzip
+- PARAMETER Uz : $true/$false to Unzip downloaded content if it is in a ZIP format or not unzip
 
 ## Example
 
