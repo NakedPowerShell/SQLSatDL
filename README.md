@@ -30,13 +30,13 @@ Authored by @NakedPowerShell
 
 ## Example
 
-`Get-SQLSatDL "K:\SQLSat_DL" 696 Y`
+`Get-SQLSatDL "K:\SQLSat_DL" 696 -Uz $true`
 
-`Get-SQLSatDL [-Tpath] <String> [-Evt] <Int32> [-Uz] <String> [<CommonParameters>]`
+`Get-SQLSatDL [-Tpath] <String> [-Evt] <Int32> [-Uz] <bool> [<CommonParameters>]`
 
     First parameter [TPath]: Local target path string where to download content to
     Second parameter[Evt]: SQL Saturday event # (an integer between 500-1000)
-    Third parameter [Uz]: Y/N to unzip zip files
+    Third parameter [Uz]: $True/$false to unzip zip files
 
     This will download all the content from SQL Saturday #696 Redmond WA Feb 10 2018
 
@@ -67,4 +67,4 @@ Authored by @NakedPowerShell
   
 ## Version History
 
-    v1.0  -  [Twitter: @NakedPowerShell] [Blog: <https://nakedpowershell.blogspot.com/> ] - Initial Release
+    v1.0  -  [Twitter: @NakedPowerShell] [Blog: <https://nakedpowershell.blogspot.com/> ] - Initial Release:  07/05/2018
