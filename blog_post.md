@@ -79,3 +79,5 @@ Ideas for extending the output of this function:
 
     - Merge all the CSV log_SQLSAT.txt files in each sub-folder into a SQL table for searching and sorting
     - Use a search tool to scan all the Schedule_[Event#].html files in each sub-folder for keywords / authors
+
+07/05/2018 <https://nakedpowershell.blogspot.com/>
